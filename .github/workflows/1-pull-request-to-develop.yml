@@ -1,0 +1,11 @@
+name:"1 - [FEAT] Build & PR"
+
+on:
+    push:
+        branches:
+            -'feature**'
+jobs:
+        open-pr-to-develop:
+            with:
+                target-branch: 'develop'
+    
