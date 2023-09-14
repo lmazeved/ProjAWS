@@ -1,0 +1,11 @@
+name:"2 - Homologacao"
+
+on:
+    push:
+        branches:
+            -'develop'
+jobs:
+        open-pr-to-homologacao:
+            with:
+                target-branch: 'homologacao'
+    
